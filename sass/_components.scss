@@ -410,11 +410,6 @@
 
   &__caption {
     text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
-    text-transform: uppercase;
-
     width: 60%;
     position: absolute;
     top: 50%;
@@ -424,6 +419,19 @@
     opacity: 0;
     transition: all 0.5s;
   }
+
+  &__quote {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  p {
+    text-align: right;
+    color: #fff;
+    margin-top: 0.6rem;
+  }
+
   &__item:hover > &__caption {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
